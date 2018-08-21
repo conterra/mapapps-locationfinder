@@ -1,0 +1,95 @@
+{
+    "name": "dn_locationfinder",
+    "version": "1.0.0-SNAPSHOT",
+    "title": "${bundleName}",
+    "description": "${bundleDescription}",
+    "vendor": "con terra GmbH",
+    "dependencies": {
+        "omnisearch": "^4.x"
+    },
+    "main": "",
+    "productName": "devnet-mapapps-locationfinder",
+    "components": [
+        {
+            "name": "LocationFinderStore",
+            "provides": [
+                "ct.api.Store"
+            ],
+            "propertiesConstructor": true,
+            "enabled": true,
+            "properties": {
+                "id": "locationfinderstore",
+                "title": "${stores.locationFinder.name}",
+                "description": "${stores.locationFinder.description}",
+                "useIn": [
+                    "omnisearch"
+                ],
+                "omniSearchDefaultLabel": "${stores.locationFinder.placeHolder}",
+                "omniSearchSearchAttr": "name",
+                "omniSearchDisableSortOptions": true,
+                "omniSearchLabelString": "${name} (${type_resolved})",
+                "omniSearchTypingDelay": 200,
+                "parameters": {},
+                "url": "",
+                "timeout": 5000,
+                "wkid": 25832,
+                "typeResolver": {
+                    "Gemeinde": "Community",
+                    "TopoName": "Topographical name",
+                    "Ort": "Place",
+                    "Stra\u00DFe": "Street",
+                    "Kreis": "County",
+                    "Regierungsbezirk": "District",
+                    "Adresse": "Address"
+                },
+                "resolveType": true,
+                "metadata": {
+                    "fields": [
+                        {
+                            "title": "${stores.fields.id}",
+                            "name": "name",
+                            "type": "number",
+                            "precision": "biginteger",
+                            "identifier": true
+                        },
+                        {
+                            "title": "${stores.fields.name}",
+                            "name": "name",
+                            "type": "string"
+                        },
+                        {
+                            "name": "cx",
+                            "type": "number",
+                            "precision": "double"
+                        },
+                        {
+                            "name": "cy",
+                            "type": "number",
+                            "precision": "double"
+                        },
+                        {
+                            "name": "xmin",
+                            "type": "number",
+                            "precision": "double"
+                        },
+                        {
+                            "name": "ymin",
+                            "type": "number",
+                            "precision": "double"
+                        },
+                        {
+                            "name": "xmax",
+                            "type": "number",
+                            "precision": "double"
+                        },
+                        {
+                            "name": "ymax",
+                            "type": "number",
+                            "precision": "double"
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

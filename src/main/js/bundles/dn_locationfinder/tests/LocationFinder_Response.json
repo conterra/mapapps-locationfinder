@@ -1,0 +1,361 @@
+{
+    "ok": true,
+    "info": "ok",
+    "sref": 52632,
+    "count": 372,
+    "locs": [{
+            "id": 1335,
+            "type": "poi",
+            "name": "Alt Engeldorfer Hof",
+            "cx": 2354292.5,
+            "cy": 5635277.3,
+            "xmin": 2354042.5,
+            "ymin": 5635027.3,
+            "xmax": 2354542.5,
+            "ymax": 5635527.3,
+            "fields": {
+                "type": "poi",
+                "STRASSE_LANG": "Engeldorfer Str.",
+                "name": "Alt Engeldorfer Hof"
+            }
+        }, {
+            "id": 1677,
+            "type": "bus",
+            "name": "Bushaltestelle Engeldorfer Hof",
+            "cx": 2353673.1,
+            "cy": 5635632.4,
+            "xmin": 2353423.1,
+            "ymin": 5635382.4,
+            "xmax": 2353923.1,
+            "ymax": 5635882.4,
+            "fields": {
+                "type": "bus",
+                "name": "Bushaltestelle Engeldorfer Hof"
+            }
+        }, {
+            "id": 1678,
+            "type": "bus",
+            "name": "Bushaltestelle Engeldorfer Str.",
+            "cx": 2354213.2,
+            "cy": 5636192.8,
+            "xmin": 2353963.2,
+            "ymin": 5635942.8,
+            "xmax": 2354463.2,
+            "ymax": 5636442.8,
+            "fields": {
+                "type": "bus",
+                "name": "Bushaltestelle Engeldorfer Str."
+            }
+        }, {
+            "id": 2375,
+            "type": "poi",
+            "name": "Engelshof",
+            "cx": 2360830.4,
+            "cy": 5640594.3,
+            "xmin": 2360580.4,
+            "ymin": 5640344.3,
+            "xmax": 2361080.4,
+            "ymax": 5640844.3,
+            "fields": {
+                "type": "poi",
+                "STRASSE_LANG": "Oberstr.",
+                "name": "Engelshof"
+            }
+        }, {
+            "id": 2863,
+            "type": "poi",
+            "name": "Hotel Engelbertz",
+            "cx": 2356423.9,
+            "cy": 5644899.7,
+            "xmin": 2356173.9,
+            "ymin": 5644649.7,
+            "xmax": 2356673.9,
+            "ymax": 5645149.7,
+            "fields": {
+                "type": "poi",
+                "STRASSE_LANG": "Obenmarspforten",
+                "name": "Hotel Engelbertz"
+            }
+        }, {
+            "id": 2864,
+            "type": "poi",
+            "name": "Hotel Engelshof",
+            "cx": 2362984,
+            "cy": 5645781.7,
+            "xmin": 2362734,
+            "ymin": 5645531.7,
+            "xmax": 2363234,
+            "ymax": 5646031.7,
+            "fields": {
+                "type": "poi",
+                "STRASSE_LANG": "Gütersloher Str.",
+                "name": "Hotel Engelshof"
+            }
+        }, {
+            "id": 3302,
+            "type": "poi",
+            "name": "Neu Engeldorfer Hof",
+            "cx": 2353771.2,
+            "cy": 5635535,
+            "xmin": 2353521.2,
+            "ymin": 5635285,
+            "xmax": 2354021.2,
+            "ymax": 5635785,
+            "fields": {
+                "type": "poi",
+                "STRASSE_LANG": "Brühler Landstr.",
+                "name": "Neu Engeldorfer Hof"
+            }
+        }, {
+            "id": 3624,
+            "type": "poi",
+            "name": "St. Engelbert",
+            "cx": 2359182.1,
+            "cy": 5643894.5,
+            "xmin": 2358932.1,
+            "ymin": 5643644.5,
+            "xmax": 2359432.1,
+            "ymax": 5644144.5,
+            "fields": {
+                "type": "poi",
+                "STRASSE_LANG": "Theoderichstr.",
+                "name": "St. Engelbert"
+            }
+        }, {
+            "id": 3625,
+            "type": "poi",
+            "name": "St. Engelbert Riehl",
+            "cx": 2357786.8,
+            "cy": 5647920.8,
+            "xmin": 2357536.8,
+            "ymin": 5647670.8,
+            "xmax": 2358036.8,
+            "ymax": 5648170.8,
+            "fields": {
+                "type": "poi",
+                "STRASSE_LANG": "Garthestr.",
+                "name": "St. Engelbert Riehl"
+            }
+        }, {
+            "id": 4293,
+            "type": "str",
+            "name": "Am Engeldorfer Berg",
+            "cx": 2354279.1,
+            "cy": 5635686.1,
+            "xmin": 2354047.1,
+            "ymin": 5635422.4,
+            "xmax": 2354547.1,
+            "ymax": 5635922.4,
+            "fields": {
+                "type": "str",
+                "name": "Am Engeldorfer Berg",
+                "str": "Am Engeldorfer Berg",
+                "plz": "50997",
+                "stv": "Alt-Meschenich",
+                "stt": "Meschenich",
+                "stb": "Rodenkirchen",
+                "count": "25"
+            }
+        }, {
+            "id": 4294,
+            "type": "str",
+            "name": "Am Engelshof",
+            "cx": 2347417.5,
+            "cy": 5644722.9,
+            "xmin": 2347151.4,
+            "ymin": 5644481.6,
+            "xmax": 2347651.4,
+            "ymax": 5644981.6,
+            "fields": {
+                "type": "str",
+                "name": "Am Engelshof",
+                "str": "Am Engelshof",
+                "plz": "50859",
+                "stv": "Üsdorf",
+                "stt": "Weiden",
+                "stb": "Lindenthal",
+                "count": "16"
+            }
+        }, {
+            "id": 5477,
+            "type": "str",
+            "name": "Engelbertstr.",
+            "cx": 2355138,
+            "cy": 5644373.7,
+            "xmin": 2354897.7,
+            "ymin": 5644132.6,
+            "xmax": 2355397.7,
+            "ymax": 5644640.1,
+            "fields": {
+                "type": "str",
+                "name": "Engelbertstr.",
+                "str": "Engelbertstr.",
+                "plz": "50674",
+                "stv": "Komponisten-Viertel",
+                "stt": "Neustadt/Süd",
+                "stb": "Innenstadt",
+                "count": "62"
+            }
+        }, {
+            "id": 5478,
+            "type": "str",
+            "name": "Engeldorfer Str.",
+            "cx": 2354194.1,
+            "cy": 5635815.6,
+            "xmin": 2353982.4,
+            "ymin": 5635214.1,
+            "xmax": 2354482.4,
+            "ymax": 5636200.9,
+            "fields": {
+                "type": "str",
+                "name": "Engeldorfer Str.",
+                "str": "Engeldorfer Str.",
+                "plz": "50997",
+                "stv": "Alt-Meschenich",
+                "stt": "Meschenich",
+                "stb": "Rodenkirchen",
+                "count": "87"
+            }
+        }, {
+            "id": 5479,
+            "type": "str",
+            "name": "Engelkestr.",
+            "cx": 2350576,
+            "cy": 5650076.1,
+            "xmin": 2350330,
+            "ymin": 5649816.2,
+            "xmax": 2350830,
+            "ymax": 5650316.2,
+            "fields": {
+                "type": "str",
+                "name": "Engelkestr.",
+                "str": "Engelkestr.",
+                "plz": "50829",
+                "stv": "Neu-Bocklemünd",
+                "stt": "Bocklemünd/Mengenich",
+                "stb": "Ehrenfeld",
+                "count": "28"
+            }
+        }, {
+            "id": 5480,
+            "type": "str",
+            "name": "Engelskircher Str.",
+            "cx": 2365605.1,
+            "cy": 5645959.8,
+            "xmin": 2365366.9,
+            "ymin": 5645713.8,
+            "xmax": 2365866.9,
+            "ymax": 5646213.8,
+            "fields": {
+                "type": "str",
+                "name": "Engelskircher Str.",
+                "str": "Engelskircher Str.",
+                "plz": "51109",
+                "stv": "Siedlung Klausenberg",
+                "stt": "Brück",
+                "stb": "Kalk",
+                "count": "11"
+            }
+        }, {
+            "id": 5481,
+            "type": "str",
+            "name": "Engelsstr.",
+            "cx": 2359653.1,
+            "cy": 5645225.8,
+            "xmin": 2359406.1,
+            "ymin": 5644988.2,
+            "xmax": 2359906.1,
+            "ymax": 5645488.2,
+            "fields": {
+                "type": "str",
+                "name": "Engelsstr.",
+                "str": "Engelsstr.",
+                "plz": "51103",
+                "stv": "Kalk",
+                "stt": "Kalk",
+                "stb": "Kalk",
+                "count": "29"
+            }
+        }, {
+            "id": 5482,
+            "type": "str",
+            "name": "Engelstr.",
+            "cx": 2361146.6,
+            "cy": 5640452,
+            "xmin": 2360902.1,
+            "ymin": 5640214.9,
+            "xmax": 2361402.1,
+            "ymax": 5640714.9,
+            "fields": {
+                "type": "str",
+                "name": "Engelstr.",
+                "str": "Engelstr.",
+                "plz": "51149",
+                "stv": "Westhoven",
+                "stt": "Westhoven",
+                "stb": "Porz",
+                "count": "7"
+            }
+        }, {
+            "id": 5483,
+            "type": "str",
+            "name": "Enggasse",
+            "cx": 2356142.6,
+            "cy": 5645490.3,
+            "xmin": 2355922.3,
+            "ymin": 5645249.3,
+            "xmax": 2356422.3,
+            "ymax": 5645749.3,
+            "fields": {
+                "type": "str",
+                "name": "Enggasse",
+                "str": "Enggasse",
+                "plz": "plz",
+                "stv": "Andreas-Viertel",
+                "stt": "Altstadt/Nord",
+                "stb": "Innenstadt",
+                "count": "4"
+            }
+        }, {
+            "id": 5484,
+            "type": "str",
+            "name": "Enggasse (Zündorf)",
+            "cx": 2362391.7,
+            "cy": 5637103.5,
+            "xmin": 2362140.2,
+            "ymin": 5636854.6,
+            "xmax": 2362640.2,
+            "ymax": 5637354.6,
+            "fields": {
+                "type": "str",
+                "name": "Enggasse (Zündorf)",
+                "str": "Enggasse",
+                "plz": "51143",
+                "stv": "Zündorf",
+                "stt": "Zündorf",
+                "stb": "Porz",
+                "count": "21"
+            }
+        }, {
+            "id": 7690,
+            "type": "str",
+            "name": "Neu Engeldorfer Hof",
+            "cx": 2353762.4,
+            "cy": 5635586.7,
+            "xmin": 2353512.4,
+            "ymin": 5635336.7,
+            "xmax": 2354012.4,
+            "ymax": 5635836.7,
+            "fields": {
+                "type": "str",
+                "name": "Neu Engeldorfer Hof",
+                "str": "Neu Engeldorfer Hof",
+                "plz": "50997",
+                "stv": "Alt-Meschenich",
+                "stt": "Meschenich",
+                "stb": "Rodenkirchen",
+                "count": "1"
+            }
+        }],
+    "time": "1.00 ms"
+}
