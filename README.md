@@ -1,6 +1,5 @@
 # Locationfinder bundle
-A location can be searched by entering search criteria in a text field. The application helps the user to find the desired location by automatically suggesting suitable results while typing.
-
+This bundle provides an omnisearch store for connecting to the Esri CH LocationFinder service, which has to be licensed seperately via Esri Switzerland. A location can be searched by entering search criteria in a text field.
 
 Installation Guide
 ------------------
