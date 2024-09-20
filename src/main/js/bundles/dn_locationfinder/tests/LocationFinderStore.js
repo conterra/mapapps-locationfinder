@@ -13,32 +13,29 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import registerSuite from "intern!object";
-import assert from "intern/chai!assert";
-import md from "module";
+import module from "module";
+import { assert } from "chai";
 import require from "require";
 import ct_when from "ct/_when";
 import LocationFinderStore from "../LocationFinderStore";
 
-registerSuite({
-    name: md.id,
-    "location finder store": {
-        "query": function () {
-            let url = require.toUrl("./LocationFinder_Response.json");
-            let locationFinderStore = new LocationFinderStore({
-                url: url, wkid: 32632, typeResolver: {
-                    "Gemeinde": "Community",
-                    "TopoName": "Topographical name",
-                    "Ort": "Place",
-                    "Stra\u00DFe": "Street",
-                    "Kreis": "County",
-                    "Regierungsbezirk": "District",
-                    "Adresse": "Address"
-                }
-            });
-            return ct_when(locationFinderStore.query({address: {$suggest: "*"}}), function (response) {
-                return assert.strictEqual(372, response.total);
-            });
-        }
-    }
+describe(module.id, function () {
+    it("testcase1", function () {
+        const url = require.toUrl("./LocationFinder_Response.json");
+        const locationFinderStore = new LocationFinderStore({
+            url: url, wkid: 32632, typeResolver: {
+                "Gemeinde": "Community",
+                "TopoName": "Topographical name",
+                "Ort": "Place",
+                "Stra\u00DFe": "Street",
+                "Kreis": "County",
+                "Regierungsbezirk": "District",
+                "Adresse": "Address"
+            }
+        });
+        return ct_when(locationFinderStore.query({ address: { $suggest: "*" } }), function (response) {
+            return assert.strictEqual(372, response.total);
+        });
+    });
+
 });
