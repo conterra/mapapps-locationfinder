@@ -5,7 +5,12 @@
     "description": "${bundleDescription}",
     "vendor": "con terra GmbH",
     "dependencies": {
-        "omnisearch": "^4.x"
+        "dojo": "^1.14.0",
+        "ct" : "^4.13.0",
+        "apprt-core": "^4.13.0",
+        "esri": "^4.22.0",
+        "apprt-request": "^4.13.0",
+        "search-ui": "^4.12.0"
     },
     "main": "",
     "productName": "devnet-mapapps-locationfinder",
@@ -22,7 +27,7 @@
                 "title": "${stores.locationFinder.name}",
                 "description": "${stores.locationFinder.description}",
                 "useIn": [
-                    "omnisearch"
+                    "search"
                 ],
                 "omniSearchDefaultLabel": "${stores.locationFinder.placeHolder}",
                 "omniSearchSearchAttr": "name",
