@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2018 con terra GmbH (info@conterra.de)
+ * Copyright (C) 2023 con terra GmbH (info@conterra.de)
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -20,9 +20,9 @@ import ct_when from "ct/_when";
 import ct_geometry from "ct/mapping/geometry";
 import Exception from "ct/Exception";
 import ct_lang from "ct/_lang";
-import ComplexQuery from "ct/store/ComplexQuery";
+import ComplexQuery from "store-api/ComplexQuery";
 import QueryResults from "dojo/store/util/QueryResults";
-import StoreUtil from "ct/store/StoreUtil";
+import { sort } from "store-api/utils";
 
 /**
  * @fileOverview This file implements the dojo store to provide a search store for the locationfinder search service.
@@ -81,7 +81,7 @@ export default class LocationFinderStore {
         }), function (response) {
             let total = response.count;
             let result = this._processSearchData(response);
-            result = StoreUtil.sort(result, options);
+            result = sort(result, options);
             result.total = total;
             return result;
         }, this);
@@ -154,7 +154,7 @@ export default class LocationFinderStore {
                 id: id
             }
         }), function (data) {
-            return this._processSearchData(data)[0]
+            return this._processSearchData(data)[0];
         }, this);
     }
 
