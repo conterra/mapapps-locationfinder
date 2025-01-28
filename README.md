@@ -1,5 +1,5 @@
 # LocationFinder bundle
-This bundle provides an omnisearch store for connecting to the Esri CH LocationFinder service, which has to be licensed seperately via Esri Switzerland. A location can be searched by entering search criteria in a text field.
+This bundle provides a store for connecting to the Esri CH LocationFinder service, which has to be licensed seperately via Esri Switzerland. A location can be searched by entering search criteria in a text field.
 
 Installation Guide
 ------------------
@@ -15,7 +15,7 @@ Installation Guide
     "title": "Suchdienst",
     "description": "Suchdienst",
     "useIn": [
-        "omnisearch"
+        "search"
     ],
     "omniSearchDefaultLabel": "Ort, Adresse, POI...",
     "omniSearchSearchAttr": "name",
