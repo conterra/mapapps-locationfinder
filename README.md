@@ -1,6 +1,9 @@
 # LocationFinder bundle
 This bundle provides a store for connecting to the Esri CH LocationFinder service, which has to be licensed seperately via Esri Switzerland. A location can be searched by entering search criteria in a text field.
 
+## Sample App
+https://demos.conterra.de/mapapps/resources/apps/internal_demo_locationfinder/index.html
+
 Installation Guide
 ------------------
 1. First, you need to add the bundles "dn_locationfinder" to your app.
