@@ -469,10 +469,10 @@
         </plugins>
     </build>
     <scm>
-        <connection>scm:git:https://github.com/conterra/mapapps-devnet-blueprint.git</connection>
-        <developerConnection>scm:git:https://github.com/conterra/mapapps-devnet-blueprint.git
+        <connection>scm:git:https://github.com/conterra/mapapps-locationfinder.git</connection>
+        <developerConnection>scm:git:https://github.com/conterra/mapapps-locationfinder.git
         </developerConnection>
-        <url>https://github.com/conterra/mapapps-devnet-blueprint</url>
+        <url>https://github.com/conterra/mapapps-devnet-locationfinder</url>
         <tag>HEAD</tag>
     </scm>
     <distributionManagement>
