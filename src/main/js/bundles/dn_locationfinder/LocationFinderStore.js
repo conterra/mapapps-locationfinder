@@ -15,7 +15,7 @@
  */
 import d_lang from "dojo/_base/lang";
 import d_array from "dojo/_base/array";
-import fetch from "apprt-fetch";
+import { fetch } from "apprt-fetch";
 import ct_when from "ct/_when";
 import ct_geometry from "ct/mapping/geometry";
 import Exception from "ct/Exception";
