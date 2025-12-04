@@ -15,7 +15,7 @@
  */
 import d_lang from "dojo/_base/lang";
 import d_array from "dojo/_base/array";
-import { fetch } from "apprt-fetch";
+import { apprtFetchJson } from "apprt-fetch";
 import ct_when from "ct/_when";
 import ct_geometry from "ct/mapping/geometry";
 import Exception from "ct/Exception";
@@ -75,7 +75,7 @@ export default class LocationFinderStore {
 
     query(query, options) {
         let content = this._extractContentFromQuery(query, options);
-        let promise = ct_when(fetch(this.url, {
+        let promise = ct_when(apprtFetchJson(this.url, {
             query: content,
             timeout: this.timeout
         }), function (response) {
@@ -149,7 +149,7 @@ export default class LocationFinderStore {
     get(id) {
         //replace last /Lookup with /Lookation
         let url = this.url.replace(/\/Lookup$/i, "/Location");
-        return ct_when(fetch(url, {
+        return ct_when(apprtFetchJson(url, {
             query: {
                 id: id
             }
@@ -167,7 +167,7 @@ export default class LocationFinderStore {
         let metadata = this.metadata || {};
         let url = this.url.replace(/\/Lookup$/, "/Version");
         let i18n = this._i18n.get().stores.fields;
-        return ct_when(fetch(url, {
+        return ct_when(apprtFetchJson(url, {
             timeout: this.timeout
         }), function (response) {
             let fields = (response.explicitFields || "").split(",");
